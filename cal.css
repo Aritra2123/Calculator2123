@@ -1,10 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:wght@300&family=Ubuntu:wght@500&display=swap');
-*{
+*{  /*here i used google font for this font.you are free to use any font of your  choice */
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: 'Ubuntu', sans-serif;
-
 }
 body{
     width: 100%;
@@ -31,8 +30,7 @@ input{
     margin: 15px;
     font-size: 45px;
     cursor:pointer;
-    color:rgba(255, 255,255, 0.6);
-
+    color:rgba(255, 255,255, 0.6); /* rgba stands for Red,Green,Blue and Alpha */
 }
 input ::placeholder{
     color: white;
@@ -47,7 +45,6 @@ button{
     box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1);
     border-radius: 50%;
     font-size: 20px;
-
 }
 .equalbtn{
     background-color: orangered;
